@@ -25,7 +25,7 @@ A lightweight inter-process communication (IPC) system using UNIX domain sockets
 https://github.com/shahjesal15/inter_process_com.git
 cd inter_process_com
 
-# Create and enter the build directory
+# build the project using the build script
 ./BUILD
 ```
 ---
