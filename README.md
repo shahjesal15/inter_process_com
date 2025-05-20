@@ -34,11 +34,11 @@ The application supports two modes: parent (server) and child (client).
 
 Run the server (parent)
 ```bash
-./inter_process_com --type parent
+./build/inter_process_com --type parent
 ```
 Run the client (child)
 ```bash
-./inter_process_com --type child
+./build/inter_process_com --type child
 ```
 ---
 
