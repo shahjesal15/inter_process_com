@@ -7,8 +7,8 @@ include_directories(
     include
 )
 
-add_library(ipc_server src/ipc/ipc_server.cpp)
-add_library(ipc_client src/ipc/ipc_client.cpp)
+add_library(ipc_server src/ipc/unix_sockets/ipc_server.cpp)
+add_library(ipc_client src/ipc/unix_sockets/ipc_client.cpp)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
 target_link_libraries(${PROJECT_NAME} ipc_server ipc_client)

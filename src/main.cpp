@@ -3,8 +3,8 @@
 #include <cstring>
 #include <csignal>
 
-#include "ipc/ipc_server.hpp"
-#include "ipc/ipc_client.hpp"
+#include "ipc/unix_sockets/ipc_server.hpp"
+#include "ipc/unix_sockets/ipc_client.hpp"
 
 bool is_active = true;
 
